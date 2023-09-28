@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: c0d64799-16e0-4140-be11-0f7ba9d94c42
+      url: 'https://frabjous-semolina-b46cf9.netlify.app'
