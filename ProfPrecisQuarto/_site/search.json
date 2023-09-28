@@ -4,7 +4,63 @@
     "href": "index.html",
     "title": "ProfPrecisAudreyBlarr",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nSoftware Engineering at Google\n\nSummary\n\n\nReflection\n\n\nUse-Case"
+    "text": "My name is Audrey Blarr, and welcome to my Quarto-generated website! Here, I will be posting my Professional Precis for CMPSC-203 Software Engineering.\nThis site features summaries, reflections, and use-cases regarding chapters of three books: FuzzingBook, DebuggingBook, and Software Engineering at Google\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#preface",
+    "href": "index.html#preface",
+    "title": "ProfPrecisAudreyBlarr",
+    "section": "Preface",
+    "text": "Preface\n\nSummary\nThe terms “software engineering” and “programming” have been used interchangeably over the years, although they have different implications. As software engineering isn’t currently as rigorous as other areas of engineering, more tedious methods of engineering will be necessary as software becomes more commonly integrated into our lives. Software engineering can be referred to as “programming integrated over time”, whereas we focus on not only writing the code itself, but the tools and processes needed to achieve and maintain sustainable code. Within these processes, three main topics are of importance: “time and change”, “scale and growth”, and “trade-offs and costs”.\n\n\nReflection\n\n\nUse Cases"
+  },
+  {
+    "objectID": "index.html#what-is-software-engineering",
+    "href": "index.html#what-is-software-engineering",
+    "title": "ProfPrecisAudreyBlarr",
+    "section": "What is Software Engineering?",
+    "text": "What is Software Engineering?\n\nSummary\nSoftware engineers must concern themselves with the need for change as time passes, unlike typical engineers. Furthermore, there exists issues of scale and efficiency, and outcomes with high stakes after making complex software decisions. Distinctions between “software engineering” and “programming” are very important, as the life span of given code allows for a prediction of its sustainability, or how much change will have to be implemented to the program’s dependencies. Capability is important when deciding whether or not to implement change. You also must consider the scale of the project, especially since software engineering is typically a team effort. Although team projects can pose new problems, there’s more potential in discovering viable solutions. Trade-offs must be evaluated often, as some implementations come with higher stakes than others. The level of broader change necessary to a program is dependent on both the amount of programmers working on a project, and their levels of skill in programming. Projects must also be adjusted to changing externalities, such as upgrades to programs, depending on the value and necessity of the given upgrade. Factors such as expertise, stability, conformity, familiarity, and policy can affect a codebase’s flexibility. Some costs involved within trade-offs include financial, resource, personnel, transaction, opportunity, and societal costs. It’s important to be evidence-driven rather than making assumptions when debating trade-offs and the risks associated within.\n\n\nReflection\n\n\nUse Cases"
+  },
+  {
+    "objectID": "index.html#how-to-work-well-on-teams",
+    "href": "index.html#how-to-work-well-on-teams",
+    "title": "ProfPrecisAudreyBlarr",
+    "section": "How to Work Well on Teams",
+    "text": "How to Work Well on Teams\n\nSummary\nCultural and social aspects of software engineering are crucial, as it’s a team endeavor. A huge issue in the software engineering world includes insecurity, as people are afraid of others viewing their unfinished work or criticizing their completed work. A phenomenon known as The Genius Myth is exhibited by many in the software engineering industry as we idolize individuals such as Linus Torvalds and attest them as the single-handed creators of large programs such as Linux. Although sparking the invention himself, Linus shared his implementations and discoveries with several others, allowing for collaboration and new perspectives on debugging. The program is now a hundred times larger than its original kernal, and is being worked on by thousands. The Genius Myth emerges because we strive to imitate these big-name creators rather than ulitizing the resources of collaboration in fear of being critcized for not being a ‘genius’. Hiding your code is super harmful, as you may not know if you’re on the right track. It’s easy to make fundamental mistakes early on, and collaborating allows you to increase the Bus Factor of your code. If you, the sole creator of a program, were to hypothetically get hit by a bus, there would be nothing stopping your project from failing to be implemented. Working with others is also much faster, and it’s much better to be a component of a successful program as opposed to the crucial part of a failed one. Working in a team allows for an instantaneous feedback loop so you know when to correct your plans or designs. The ‘three pillars’ of social skills and success include ‘humility’, ‘respect’, and ‘trust’, and creating relationships through these skills allow for richer relationships with coworkers and an increased ability to complete the project. Properly documenting any failures within a project can prevent history from repeating itself and boost the understandings of others.\n\n\nReflection\n\n\nUse Cases"
+  },
+  {
+    "objectID": "index.html#knowledge-sharing",
+    "href": "index.html#knowledge-sharing",
+    "title": "ProfPrecisAudreyBlarr",
+    "section": "Knowledge Sharing",
+    "text": "Knowledge Sharing\n\nSummary\n\n\nReflection\n\n\nUse Cases"
+  },
+  {
+    "objectID": "index.html#introduction-to-software-testing",
+    "href": "index.html#introduction-to-software-testing",
+    "title": "ProfPrecisAudreyBlarr",
+    "section": "Introduction to Software Testing",
+    "text": "Introduction to Software Testing\n\nSummary\nIt’s essential to create testing for your implemented software to ensure accuracy. Simple examples of software testing may include calculations like square-root testing, where you can incorporate Python control structures (while, if), assignments, and comparisons. You can incorporate ‘print’ statements into testing to observe closely how the function is being implemented. For instances like the square root example, you can test its accuracy by working backwards and multiplying the answer to itself. However, it’s more efficient to use automated testing, where you log the accurate answer and test the function to see if the output matches the desired answer. The ‘assert’ keyword can be used, which returns nothing if the function’s output matches and raises an error if not. You can use an ‘epsilon’ value to ensure your function’s output remains below a specified value, which gets rid of any rounding inaccuracies. These tests can be incorporated straight into the implementation as well to save space and time. However, you must be able to both formulate and afford these run-time checks. You can only test a finite amount of inputs, so there’s a limit to the testing in that regard.\n\n\nReflection\n\n\nUse Cases"
+  },
+  {
+    "objectID": "index.html#coverage",
+    "href": "index.html#coverage",
+    "title": "ProfPrecisAudreyBlarr",
+    "section": "Coverage",
+    "text": "Coverage\n\nSummary\nThe term “code coverage” refers to the ability to measure which parts of a program are being executed during a given test run, a process crucial for attempting to cover as much code as possible using a test generator. A simple Python command, ‘cgi_decode()’, will allow you to take an encoded string and decode it to its original form. You can derive tests using either Black-box testing, testing for specification, or White-box testing, testing for implementation. White-box testing covers the structural features of a code, such as statement coverage and branch coverage. Furthermore, this method of testing keeps track of which code was executed so a programmer can then focus on writing tests to cover the uncovered code. Dynamic analysis can take place using the command ‘sys.settrace()’to track how execution proceeds while decoding. Defining a ’Coverage’ object to not only keep track of which lines are executed, but the function names as well, which is helpful when a program spans over many files. Along with Python, most other coding languages have their own methods of testing code coverage. We must also set up a results checker to ensure that ‘cgi_decode()’ is error-free.\n\n\nReflection\n\n\nUse Cases"
+  },
+  {
+    "objectID": "index.html#fuzzing",
+    "href": "index.html#fuzzing",
+    "title": "ProfPrecisAudreyBlarr",
+    "section": "Fuzzing",
+    "text": "Fuzzing\n\nSummary\nThe input of a program can take many forms, including data prompted by user or read from a file. These inputs determine how a program behaves, including its failures, so it’s important to test each valid input, or a program’s ‘language’. Grammars are used to specify input languages formally, where a wide range of the properties of an input language is expressed, as well as the syntactical structure of an input. Consisting of a ‘start’ symbol followed by a set of expansion rules, grammers formally define the language in the sense that anything that can be derived from ‘start’ using the expansion rules is part of the language. Grammers can even be recursive and cover full arithmetic expressions. Using a format based on strings and lists is the simplest way to write grammars using Python. However, this method may be inefficient with its large number of search and replace operations, and it may not even produce a string. Grammars are not limited to just formal languages; they can be used to produce natural language as well. Grammar-generated inputs can be used as seeds in mutation-based fuzzing, where more complex constraints can be satisfied. Helper functions can be utilized in testing grammars, checking whether all used symbols are defined or not, and whether or not they’re reachable from the starting point.\n\n\nReflection\n\n\nUse Cases"
+  },
+  {
+    "objectID": "index.html#mutation-analysis",
+    "href": "index.html#mutation-analysis",
+    "title": "ProfPrecisAudreyBlarr",
+    "section": "Mutation Analysis",
+    "text": "Mutation Analysis\n\nSummary\n\n\nReflection\n\n\nUse Cases"
   },
   {
     "objectID": "about.html",

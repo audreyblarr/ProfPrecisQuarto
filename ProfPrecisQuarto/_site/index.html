@@ -105,7 +105,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#software-engineering-at-google" id="toc-software-engineering-at-google" class="nav-link active" data-scroll-target="#software-engineering-at-google">Software Engineering at Google</a></li>
+  <li><a href="#software-engineering-at-google" id="toc-software-engineering-at-google" class="nav-link active" data-scroll-target="#software-engineering-at-google">Software Engineering at Google</a>
+  <ul class="collapse">
+  <li><a href="#preface" id="toc-preface" class="nav-link" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#what-is-software-engineering" id="toc-what-is-software-engineering" class="nav-link" data-scroll-target="#what-is-software-engineering">What is Software Engineering?</a></li>
+  <li><a href="#how-to-work-well-on-teams" id="toc-how-to-work-well-on-teams" class="nav-link" data-scroll-target="#how-to-work-well-on-teams">How to Work Well on Teams</a></li>
+  <li><a href="#knowledge-sharing" id="toc-knowledge-sharing" class="nav-link" data-scroll-target="#knowledge-sharing">Knowledge Sharing</a></li>
+  </ul></li>
+  <li><a href="#fuzzingbook" id="toc-fuzzingbook" class="nav-link" data-scroll-target="#fuzzingbook">FuzzingBook</a>
+  <ul class="collapse">
+  <li><a href="#introduction-to-software-testing" id="toc-introduction-to-software-testing" class="nav-link" data-scroll-target="#introduction-to-software-testing">Introduction to Software Testing</a></li>
+  <li><a href="#coverage" id="toc-coverage" class="nav-link" data-scroll-target="#coverage">Coverage</a></li>
+  <li><a href="#fuzzing" id="toc-fuzzing" class="nav-link" data-scroll-target="#fuzzing">Fuzzing</a></li>
+  <li><a href="#mutation-analysis" id="toc-mutation-analysis" class="nav-link" data-scroll-target="#mutation-analysis">Mutation Analysis</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -129,20 +142,117 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This is a Quarto website.</p>
+<p>My name is Audrey Blarr, and welcome to my Quarto-generated website! Here, I will be posting my Professional Precis for CMPSC-203 Software Engineering.</p>
+<p>This site features summaries, reflections, and use-cases regarding chapters of three books: FuzzingBook, DebuggingBook, and Software Engineering at Google</p>
 <p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
 <section id="software-engineering-at-google" class="level1">
 <h1>Software Engineering at Google</h1>
+<section id="preface" class="level2">
+<h2 class="anchored" data-anchor-id="preface">Preface</h2>
 <section id="summary" class="level4">
 <h4 class="anchored" data-anchor-id="summary">Summary</h4>
+<p>The terms “software engineering” and “programming” have been used interchangeably over the years, although they have different implications. As software engineering isn’t currently as rigorous as other areas of engineering, more tedious methods of engineering will be necessary as software becomes more commonly integrated into our lives. Software engineering can be referred to as “programming integrated over time”, whereas we focus on not only writing the code itself, but the tools and processes needed to achieve and maintain sustainable code. Within these processes, three main topics are of importance: “time and change”, “scale and growth”, and “trade-offs and costs”.</p>
 </section>
 <section id="reflection" class="level4">
 <h4 class="anchored" data-anchor-id="reflection">Reflection</h4>
 </section>
-<section id="use-case" class="level4">
-<h4 class="anchored" data-anchor-id="use-case">Use-Case</h4>
+<section id="use-cases" class="level4">
+<h4 class="anchored" data-anchor-id="use-cases">Use Cases</h4>
+</section>
+</section>
+<section id="what-is-software-engineering" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-software-engineering">What is Software Engineering?</h2>
+<section id="summary-1" class="level4">
+<h4 class="anchored" data-anchor-id="summary-1">Summary</h4>
+<p>Software engineers must concern themselves with the need for change as time passes, unlike typical engineers. Furthermore, there exists issues of scale and efficiency, and outcomes with high stakes after making complex software decisions. Distinctions between “software engineering” and “programming” are very important, as the life span of given code allows for a prediction of its sustainability, or how much change will have to be implemented to the program’s dependencies. Capability is important when deciding whether or not to implement change. You also must consider the scale of the project, especially since software engineering is typically a team effort. Although team projects can pose new problems, there’s more potential in discovering viable solutions. Trade-offs must be evaluated often, as some implementations come with higher stakes than others. The level of broader change necessary to a program is dependent on both the amount of programmers working on a project, and their levels of skill in programming. Projects must also be adjusted to changing externalities, such as upgrades to programs, depending on the value and necessity of the given upgrade. Factors such as expertise, stability, conformity, familiarity, and policy can affect a codebase’s flexibility. Some costs involved within trade-offs include financial, resource, personnel, transaction, opportunity, and societal costs. It’s important to be evidence-driven rather than making assumptions when debating trade-offs and the risks associated within.</p>
+</section>
+<section id="reflection-1" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-1">Reflection</h4>
+</section>
+<section id="use-cases-1" class="level4">
+<h4 class="anchored" data-anchor-id="use-cases-1">Use Cases</h4>
+</section>
+</section>
+<section id="how-to-work-well-on-teams" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-work-well-on-teams">How to Work Well on Teams</h2>
+<section id="summary-2" class="level4">
+<h4 class="anchored" data-anchor-id="summary-2">Summary</h4>
+<p>Cultural and social aspects of software engineering are crucial, as it’s a team endeavor. A huge issue in the software engineering world includes insecurity, as people are afraid of others viewing their unfinished work or criticizing their completed work. A phenomenon known as The Genius Myth is exhibited by many in the software engineering industry as we idolize individuals such as Linus Torvalds and attest them as the single-handed creators of large programs such as Linux. Although sparking the invention himself, Linus shared his implementations and discoveries with several others, allowing for collaboration and new perspectives on debugging. The program is now a hundred times larger than its original kernal, and is being worked on by thousands. The Genius Myth emerges because we strive to imitate these big-name creators rather than ulitizing the resources of collaboration in fear of being critcized for not being a ‘genius’. Hiding your code is super harmful, as you may not know if you’re on the right track. It’s easy to make fundamental mistakes early on, and collaborating allows you to increase the Bus Factor of your code. If you, the sole creator of a program, were to hypothetically get hit by a bus, there would be nothing stopping your project from failing to be implemented. Working with others is also much faster, and it’s much better to be a component of a successful program as opposed to the crucial part of a failed one. Working in a team allows for an instantaneous feedback loop so you know when to correct your plans or designs. The ‘three pillars’ of social skills and success include ‘humility’, ‘respect’, and ‘trust’, and creating relationships through these skills allow for richer relationships with coworkers and an increased ability to complete the project. Properly documenting any failures within a project can prevent history from repeating itself and boost the understandings of others.</p>
+</section>
+<section id="reflection-2" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-2">Reflection</h4>
+</section>
+<section id="use-cases-2" class="level4">
+<h4 class="anchored" data-anchor-id="use-cases-2">Use Cases</h4>
+</section>
+</section>
+<section id="knowledge-sharing" class="level2">
+<h2 class="anchored" data-anchor-id="knowledge-sharing">Knowledge Sharing</h2>
+<section id="summary-3" class="level4">
+<h4 class="anchored" data-anchor-id="summary-3">Summary</h4>
+</section>
+<section id="reflection-3" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-3">Reflection</h4>
+</section>
+<section id="use-cases-3" class="level4">
+<h4 class="anchored" data-anchor-id="use-cases-3">Use Cases</h4>
+</section>
+</section>
+</section>
+<section id="fuzzingbook" class="level1">
+<h1>FuzzingBook</h1>
+<section id="introduction-to-software-testing" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-software-testing">Introduction to Software Testing</h2>
+<section id="summary-4" class="level4">
+<h4 class="anchored" data-anchor-id="summary-4">Summary</h4>
+<p>It’s essential to create testing for your implemented software to ensure accuracy. Simple examples of software testing may include calculations like square-root testing, where you can incorporate Python control structures (while, if), assignments, and comparisons. You can incorporate ‘print’ statements into testing to observe closely how the function is being implemented. For instances like the square root example, you can test its accuracy by working backwards and multiplying the answer to itself. However, it’s more efficient to use automated testing, where you log the accurate answer and test the function to see if the output matches the desired answer. The ‘assert’ keyword can be used, which returns nothing if the function’s output matches and raises an error if not. You can use an ‘epsilon’ value to ensure your function’s output remains below a specified value, which gets rid of any rounding inaccuracies. These tests can be incorporated straight into the implementation as well to save space and time. However, you must be able to both formulate and afford these run-time checks. You can only test a finite amount of inputs, so there’s a limit to the testing in that regard.</p>
+</section>
+<section id="reflection-4" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-4">Reflection</h4>
+</section>
+<section id="use-cases-4" class="level4">
+<h4 class="anchored" data-anchor-id="use-cases-4">Use Cases</h4>
+</section>
+</section>
+<section id="coverage" class="level2">
+<h2 class="anchored" data-anchor-id="coverage">Coverage</h2>
+<section id="summary-5" class="level4">
+<h4 class="anchored" data-anchor-id="summary-5">Summary</h4>
+<p>The term “code coverage” refers to the ability to measure which parts of a program are being executed during a given test run, a process crucial for attempting to cover as much code as possible using a test generator. A simple Python command, ‘cgi_decode()’, will allow you to take an encoded string and decode it to its original form. You can derive tests using either Black-box testing, testing for specification, or White-box testing, testing for implementation. White-box testing covers the structural features of a code, such as statement coverage and branch coverage. Furthermore, this method of testing keeps track of which code was executed so a programmer can then focus on writing tests to cover the uncovered code. Dynamic analysis can take place using the command ‘sys.settrace()’to track how execution proceeds while decoding. Defining a ’Coverage’ object to not only keep track of which lines are executed, but the function names as well, which is helpful when a program spans over many files. Along with Python, most other coding languages have their own methods of testing code coverage. We must also set up a results checker to ensure that ‘cgi_decode()’ is error-free.</p>
+</section>
+<section id="reflection-5" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-5">Reflection</h4>
+</section>
+<section id="use-cases-5" class="level4">
+<h4 class="anchored" data-anchor-id="use-cases-5">Use Cases</h4>
+</section>
+</section>
+<section id="fuzzing" class="level2">
+<h2 class="anchored" data-anchor-id="fuzzing">Fuzzing</h2>
+<section id="summary-6" class="level4">
+<h4 class="anchored" data-anchor-id="summary-6">Summary</h4>
+<p>The input of a program can take many forms, including data prompted by user or read from a file. These inputs determine how a program behaves, including its failures, so it’s important to test each valid input, or a program’s ‘language’. Grammars are used to specify input languages formally, where a wide range of the properties of an input language is expressed, as well as the syntactical structure of an input. Consisting of a ‘start’ symbol followed by a set of expansion rules, grammers formally define the language in the sense that anything that can be derived from ‘start’ using the expansion rules is part of the language. Grammers can even be recursive and cover full arithmetic expressions. Using a format based on strings and lists is the simplest way to write grammars using Python. However, this method may be inefficient with its large number of search and replace operations, and it may not even produce a string. Grammars are not limited to just formal languages; they can be used to produce natural language as well. Grammar-generated inputs can be used as seeds in mutation-based fuzzing, where more complex constraints can be satisfied. Helper functions can be utilized in testing grammars, checking whether all used symbols are defined or not, and whether or not they’re reachable from the starting point.</p>
+</section>
+<section id="reflection-6" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-6">Reflection</h4>
+</section>
+<section id="use-cases-6" class="level4">
+<h4 class="anchored" data-anchor-id="use-cases-6">Use Cases</h4>
+</section>
+</section>
+<section id="mutation-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="mutation-analysis">Mutation Analysis</h2>
+<section id="summary-7" class="level4">
+<h4 class="anchored" data-anchor-id="summary-7">Summary</h4>
+</section>
+<section id="reflection-7" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-7">Reflection</h4>
+</section>
+<section id="use-cases-7" class="level4">
+<h4 class="anchored" data-anchor-id="use-cases-7">Use Cases</h4>
 
 
+</section>
 </section>
 </section>
 
